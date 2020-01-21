@@ -1,3 +1,14 @@
+## TODO:
+
+Front of Front-End
+
+[] Add Header + description
+[] Fix sidebar
+[] Mobile responsiveness??
+[] Look at RazorPay's thing and add all of that
+[] Generate URL with JSON for Razorpay's product
+
+
 ## 🛍️ Simple ecommerce cart application [![CircleCI](https://circleci.com/gh/jeffersonRibeiro/react-shopping-cart.svg?style=svg)](https://circleci.com/gh/jeffersonRibeiro/react-shopping-cart)
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
 
