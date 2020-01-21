@@ -16,14 +16,14 @@ class Product extends React.Component {
     super(props);
     this.state = {
       product: this.props.product,
-      size: ''
+      size: this.props.product.availableSizes[0],
     };
   }
 
   handleAddProduct = () => {
     const { product, size } = this.state;
     product.size = size;
-    console.log(product);
+    product.id = product.id + product.size;
     this.props.addProduct(product);
   }
 
@@ -65,7 +65,7 @@ class Product extends React.Component {
         )}
         <Thumb
           classes="shelf-item__thumb"
-          src={require(`../../../../static/products/${product.sku}_1.jpg`)}
+          // src={require(`../../../../static/productgs/${product.sku}_1.jpg`)}
           alt={product.title}
         />
         <p className="shelf-item__title">{product.title}</p>
