@@ -1,10 +1,10 @@
 export default [
     {
-      "id": 12,
-      "sku": 12064273040195392,
+      "id": 1,
+      "sku": 100,
       "title": "Article 14 T-Shirt",
       "description": "T-Shirt with Article 14 printed on it",
-      "availableSizes": ["S", "XS", "L", "XL", "M"],
+      "availableSizes": ["S", "XS", "M", "L", "XL"],
       "style": "Black with custom print",
       "price": 300,
       "currencyId": "INR",
@@ -13,12 +13,12 @@ export default [
     },
 
     {
-      "id": 13,
-      "sku": 51498472915966366,
+      "id": 2,
+      "sku": 101, 
       "title": "Preamble Tote Bad",
       "description": "A bag with Preamble printed on it",
-      "availableSizes": ["M", "S" ,"L"],
-      "style": "New style",
+      "availableSizes": ["Onesize"],
+      "style": "White Jute bag",
       "price": 250,
       "currencyId": "INR",
       "currencyFormat": "₹",
