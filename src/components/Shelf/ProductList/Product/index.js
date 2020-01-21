@@ -37,7 +37,7 @@ const Product = ({ product, addProduct }) => {
       )}
       <Thumb
         classes="shelf-item__thumb"
-        src={require(`../../../../static/products/${product.sku}_1.jpg`)}
+        // src={require(`../../../../static/products/${product.sku}_1.jpg`)}
         alt={product.title}
       />
       <p className="shelf-item__title">{product.title}</p>
@@ -47,12 +47,12 @@ const Product = ({ product, addProduct }) => {
           <b>{formattedPrice.substr(0, formattedPrice.length - 3)}</b>
           <span>{formattedPrice.substr(formattedPrice.length - 3, 3)}</span>
         </div>
-        <select> 
+        <select>
           {product.availableSizes.map((size) => <option value={size}>{size}</option> )}
         </select>
         {productInstallment}
       </div>
-      <div 
+      <div
         className="shelf-item__buy-btn"
         onClick={() => addProduct(product)}
       >Add to cart</div>
