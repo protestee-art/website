@@ -71,3 +71,6 @@ yarn-error.log
 
 tutorial.md
 deploy.js
+
+# IntelliJ editor files
+.idea

@@ -32,7 +32,7 @@ const Layout = ({ children, pageInfo }) => (
               <Header siteTitle={data.site.siteMetadata.title} />
             </Col>
           </Row>
-          <Navbar pageInfo={pageInfo} />
+          {/*<Navbar pageInfo={pageInfo} />*/}
           <Row noGutters>
             <Col>
               <Container className="mt-5">

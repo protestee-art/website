@@ -1,5 +1,5 @@
 import React from "react"
-import { Row, Col, Container, ListGroup,Button, Card  } from "react-bootstrap"
+import { Row, Col, Container, ListGroup, Button, Card  } from "react-bootstrap"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"

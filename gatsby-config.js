@@ -1,10 +1,9 @@
 module.exports = {
   pathPrefix: "/gatsby-react-bootstrap-starter",
   siteMetadata: {
-    title: `GatsbyJS - Bootstrap4 Starter`,
-    description: `A starter that includes react-bootstrap and react-icons, along with SASS compilation.`,
-    author: `Billy Jacoby`,
-    siteUrl: `https://gatsby-starter-bootstrap.appseed.us`
+    title: `Protestee.Art`,
+    description: `A storefront that allows you to flaunt merch that fights against the facism that is threatening to overtake the country.`,
+    siteUrl: `https://protestee.art`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
