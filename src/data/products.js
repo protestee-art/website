@@ -9,12 +9,11 @@ export default [
       "price": 300,
       "currencyId": "INR",
       "currencyFormat": "₹",
-      "isFreeShipping": true
     },
 
     {
       "id": 2,
-      "sku": 101, 
+      "sku": 101,
       "title": "Preamble Tote Bad",
       "description": "A bag with Preamble printed on it",
       "availableSizes": ["Onesize"],
@@ -22,7 +21,6 @@ export default [
       "price": 250,
       "currencyId": "INR",
       "currencyFormat": "₹",
-      "isFreeShipping": true
     }
 
   ]
